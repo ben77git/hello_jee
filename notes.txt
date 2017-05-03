@@ -6,3 +6,7 @@ $ javac src/ch03/FaqCategories.java -d WebContent/WEB-INF/classes
 
 $ git config --global user.email "bigbzy31@gmail.com"
 $ git config --global user.name "ben77git"
+
+$ git add .
+
+$ git commit -a -m 'ma class FaqCategories'
