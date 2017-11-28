@@ -10,3 +10,7 @@ $ git config --global user.name "ben77git"
 $ git add .
 
 $ git commit -a -m 'ma class FaqCategories'
+
+
+[remote "origin"]
+        url = https://github.com/ben77git/repo_jee.git
