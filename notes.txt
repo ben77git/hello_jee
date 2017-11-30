@@ -10,3 +10,7 @@ $ git config --global user.name "ben77git"
 $ git add .
 
 $ git commit -a -m 'ma class FaqCategories'
+
+
+- creer l'archive war:
+>jar cvf hello_j2ee.war .
