@@ -1,0 +1,8 @@
+﻿LIEN :
+======
+
+Serveur : http://localhost:8080
+
+Projet(index) : http://localhost:8080/hello_jee/
+
+ressource : http://localhost:8080/hello_jee/accueil.jsp

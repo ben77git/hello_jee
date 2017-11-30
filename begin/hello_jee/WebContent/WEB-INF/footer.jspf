@@ -1,0 +1,4 @@
+<jsp:directive.page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" />
+<br>
+<hr>
+Page créée le <jsp:expression> new java.util.Date()</jsp:expression>
