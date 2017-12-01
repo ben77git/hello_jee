@@ -1,0 +1,35 @@
+notes 2:
+=======
+
+<%@page import="" %>
+<% @include file=""  %>
+
+<jsp:directive.page import="" />
+<jsp:directive.include file="" />
+
+<%! ArrayList<String> list = new ArrayList<String> %> 
+
+<jsp:declaration>ArrayList<String> list = new ArrayList<String>();</jsp:declaration>
+
+<% listCats.add("Dates et Heures");
+		listCats.add("Strings et StringBuffers");
+		listCats.add("Threads");
+		%>
+		
+		
+<jsp:scriptlet>
+		listCats.add("Dates et Heures");
+		listCats.add("Strings et StringBuffers");
+		listCats.add("Threads");
+</jsp:scriptlet>
+
+
+<%=listCats.get(0)%>
+
+<jsp:expression>listCats.get(0)</jsp:expression>
+
+<jsp:declaration>
+ public int countElt(ArrayList<String> list) {
+	return list.size();
+ }
+</jsp:declaration>

@@ -12,5 +12,11 @@ $ git add .
 $ git commit -a -m 'ma class FaqCategories'
 
 
+-- merge effectué suite à un git pull remote apres des modif en local
+--<<<<<<< HEAD
 - creer l'archive war:
 >jar cvf hello_j2ee.war .
+--=======
+[remote "origin"]
+        url = https://github.com/ben77git/repo_jee.git
+-->>>>>>> 0fab01db614ecab7ca20b13fdcf9736b2e519c00
